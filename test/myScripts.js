@@ -11,7 +11,7 @@ function myLoop(){
   end = Number(end)
   jump = Number(jump)
   
-for( var i = start; i <= end; i++)
+for( var i = start; i <= end; i+=jump)
 {
   document.write('<p>' + i + '</p>')
 }
